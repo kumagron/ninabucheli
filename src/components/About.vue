@@ -36,7 +36,7 @@
                     <div class="med-divider"></div>
                 </div>
                 <div class="form-wrapper w-form">
-                    <form id="email-form" name="email-form" data-name="Email Form" method="post" action="https://sendgrid-func.azurewebsites.net/api/Subscribe?code=oODUmm8CzuYmeYkEC/3bx2bgkKpvS83NtNWRkEa8bfTFVlagisXGZA==" class="w-clearfix"><input type="email" id="email" name="email" data-name="Email" placeholder="Enter your email address" maxlength="256" required="" class="field w-input" /><input type="submit" value="Submit" data-wait="Please wait..." id="subscribe-button"
+                    <form id="email-form" name="email-form" data-name="Email Form" method="post" action="https://sendgrid-func.azurewebsites.net/api/Subscribe" class="w-clearfix"><input type="email" id="email" name="email" data-name="Email" placeholder="Enter your email address" maxlength="256" required="" class="field w-input" /><input type="submit" value="Submit" data-wait="Please wait..." id="subscribe-button"
                             class="submit-button w-button" /></form>
                     <div class="success-message w-form-done">
                         <p>Thank you! Your submission has been received!</p>
@@ -61,12 +61,12 @@
 </template>
 
 <script>
-  export default {
-    name: 'About',
-    mounted() {
-        window.scrollTo(0, 0);
+    import form from '@/classes/form'
+
+    export default {
+        mounted() {
+            window.scrollTo(0, 0);
+            new form().OverrideFormSubmit();
     }
   }
-
-  
 </script>

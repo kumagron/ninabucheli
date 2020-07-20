@@ -16,7 +16,8 @@
                     <div class="w-col w-col-6">
                         <h3>Send a Request</h3>
                         <div class="w-form">
-                            <form id="email-form" name="email-form" data-name="Email Form" class="contact-form"><label for="name" class="field-label">Name:</label><input type="text" id="name" name="name" data-name="Name" placeholder="Enter your name" maxlength="256" class="contact-field w-input" /><label for="email" class="field-label">Email Address:</label><input
+                            <form id="email-form" name="email-form" data-name="Email Form" class="contact-form"
+                                action="https://sendgrid-func.azurewebsites.net/api/Contact"><label for="name" class="field-label">Name:</label><input type="text" id="name" name="name" data-name="Name" placeholder="Enter your name" maxlength="256" class="contact-field w-input" /><label for="email" class="field-label">Email Address:</label><input
                                     type="email" id="email" name="email" data-name="Email" placeholder="Enter your email address" maxlength="256" required="" class="contact-field w-input" /><label for="Message" class="field-label">Message:</label>
                                 <textarea
                                     id="Message" name="Message" placeholder="Say what you need to say..." maxlength="5000" data-name="Message" class="contact-field message w-input"></textarea><input type="submit" value="Submit" data-wait="Please wait..." class="button w-button" /></form>
@@ -38,7 +39,7 @@
                     <div class="med-divider"></div>
                 </div>
                 <div class="form-wrapper w-form">
-                    <form id="email-form" name="email-form" data-name="Email Form" method="get" class="w-clearfix"><input type="email" id="email" name="email" data-name="Email" placeholder="Enter your email address" maxlength="256" required="" class="field w-input" /><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"
+                    <form id="email-form" name="email-form" data-name="Email Form" method="post" action="https://sendgrid-func.azurewebsites.net/api/Subscribe" class="w-clearfix"><input type="email" id="email" name="email" data-name="Email" placeholder="Enter your email address" maxlength="256" required="" class="field w-input" /><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"
                         /></form>
                     <div class="success-message w-form-done">
                         <p>Thank you! Your submission has been received!</p>
@@ -62,11 +63,14 @@
     
 </template>
 
+
 <script>
-  export default {
-    name: 'Contact',
-    mounted() {
-        window.scrollTo(0, 0);
+    import form from '@/classes/form'
+
+    export default {
+        mounted() {
+            window.scrollTo(0, 0);
+            new form().OverrideFormSubmit();
     }
   }
 </script>
