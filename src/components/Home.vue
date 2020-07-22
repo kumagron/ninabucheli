@@ -2,8 +2,8 @@
     <span>
         <div class="hero-section">
             <div id="w-node-78e434d76ae1-380f7f0b" class="hero-content w-container">
-                <div data-ix="hero-text" class="hero-heading">Just live your best life.</div>
-                <div data-ix="hero-text-2" class="hero-subheading">Let me help you get a head start.</div>
+                <div data-ix="hero-text" class="hero-heading">Lorem ipsum dolor sit amet.</div>
+                <div data-ix="hero-text-2" class="hero-subheading">consectetur adipiscing elit, sed do eiusmod tempor.</div>
             </div>
         </div>
         <section id="about-me" class="feature-section">
@@ -11,9 +11,8 @@
                 <div class="feature-image-mask"><img src="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134e0e72c622f4b864755b_20200717_024624.jpg" srcset="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134e0e72c622f4b864755b_20200717_024624-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134e0e72c622f4b864755b_20200717_024624-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134e0e72c622f4b864755b_20200717_024624-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134e0e72c622f4b864755b_20200717_024624-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134e0e72c622f4b864755b_20200717_024624-p-2000.jpeg 2000w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134e0e72c622f4b864755b_20200717_024624-p-2600.jpeg 2600w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134e0e72c622f4b864755b_20200717_024624.jpg 3024w"
                         sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 268.8000183105469px, 407.6499938964844px" alt="" class="feature-image" /></div>
                 <div>
-                    <h2>Feature section</h2>
-                    <p>The <strong>feature</strong> layout is built with <strong>flex</strong>, like the <strong>hero</strong> layout. Don’t like our typesetting? You can update every detail in the typography section of the Style panel.<br/>‍<br/>You can
-                        also add spacing between the heading and paragraph, swap a video in for the image, or add a button. Just make sure to drop your button into the <strong>div block</strong> that contains this content.</p><img src="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134e0e72c62204c5647563_signature.svg"
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>‍<br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p><img src="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134e0e72c62204c5647563_signature.svg"
                         width="126" alt="" /></div>
             </div>
         </section>
