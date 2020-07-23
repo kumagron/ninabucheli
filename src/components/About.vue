@@ -32,12 +32,9 @@
 </template>
 
 <script>
-    import form from '@/classes/form'
-
     export default {
         mounted() {
             window.scrollTo(0, 0);
-            new form().OverrideFormSubmit();
     }
   }
 </script>

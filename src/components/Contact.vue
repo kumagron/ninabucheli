@@ -16,8 +16,8 @@
                     <div class="w-col w-col-6">
                         <h3>Send a Request</h3>
                         <div class="w-form">
-                            <form id="email-form" name="email-form" data-name="Email Form" class="contact-form"
-                                action="https://sendgrid-func.azurewebsites.net/api/Contact"><label for="name" class="field-label">Name:</label><input type="text" id="name" name="name" data-name="Name" placeholder="Enter your name" maxlength="256" class="contact-field w-input" /><label for="email" class="field-label">Email Address:</label><input
+                            <form id="contact-form" name="contact-form" data-name="Contact Form" class="contact-form">
+                                <label for="name" class="field-label">Name:</label><input type="text" id="name" name="name" data-name="Name" placeholder="Enter your name" maxlength="256" class="contact-field w-input" /><label for="email" class="field-label">Email Address:</label><input
                                     type="email" id="email" name="email" data-name="Email" placeholder="Enter your email address" maxlength="256" required="" class="contact-field w-input" /><label for="Message" class="field-label">Message:</label>
                                 <textarea
                                     id="Message" name="Message" placeholder="Say what you need to say..." maxlength="5000" data-name="Message" class="contact-field message w-input"></textarea><input type="submit" value="Submit" data-wait="Please wait..." class="button w-button" /></form>
@@ -37,12 +37,16 @@
 
 
 <script>
-    import form from '@/classes/form'
+import Form from '../classes/form'
 
-    export default {
-        mounted() {
-            window.scrollTo(0, 0);
-            new form().OverrideFormSubmit();
+export default {
+    mounted() {
+        new Form(
+            document.querySelector('#contact-form'),
+            'https://sendgrid-func.azurewebsites.net/api/Contact'
+        );
+        
+        window.scrollTo(0, 0);
     }
-  }
+}
 </script>
