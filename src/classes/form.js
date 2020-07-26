@@ -35,9 +35,14 @@ export default class Form {
             xhr.setRequestHeader("Content-Type", "application/json");
             xhr.setRequestHeader("x-functions-key", "RJeLWq3CX6HwzABElC47NrWkm3CYBHfcaPYqVo9i66wTXfgpEbC3Eg==")
             
-            var object = {};
-            Array.from(new FormData(e.srcElement)).forEach((value, i) => {object[i] = value});
-            var payload = JSON.stringify(object);
+            const formData = new FormData(e.srcElement);
+            let jsonObject = {};
+
+            for (const [key, value]  of formData.entries()) {
+                jsonObject[key] = value;
+            }
+
+            var payload = JSON.stringify(jsonObject);
 
             xhr.send(payload)
 

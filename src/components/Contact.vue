@@ -43,7 +43,7 @@ export default {
     mounted() {
         new Form(
             document.querySelector('#contact-form'),
-            'https://sendgrid-func.azurewebsites.net/api/Contact'
+            'https://sendgrid-func.azurewebsites.net/api/ContactRequest'
         );
         
         window.scrollTo(0, 0);
