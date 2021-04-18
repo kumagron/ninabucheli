@@ -10,6 +10,7 @@
         </a>
         <nav role="navigation" class="nav-menu w-nav-menu">
             <a href="/" class="nav-link w-nav-link">Home</a>
+            <!-- <a href="#/coaching" class="nav-link w-nav-link">Coaching</a> -->
             <a href="#/about" class="nav-link w-nav-link">About</a>
             <a href="#/contact" class="nav-link w-nav-link">Contact</a>
             <a href="#" class="close-x w-hidden-main w-hidden-medium w-hidden-small">×</a>
@@ -22,8 +23,9 @@
   </div>
   
   <router-view></router-view>
-  
+
   <div class="main-section dark">
+    <!--
     <div class="container-8 w-container">
         <div class="section-heading">
             <h2 class="white">Stay in Touch</h2>
@@ -40,14 +42,20 @@
             </div>
         </div>
     </div>
+    -->
     <div class="footer-section">
         <div class="w-container">
             <div class="w-row">
-                <div class="w-col w-col-4 w-col-small-4"><a href="/" aria-current="page" class="footer-logo w-inline-block w--current"><img src="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134d1c911bc71ba0b893ee_nina%20bucheli%20logo%202.svg" width="160" alt="nina bucheli logo" class="image-6"/><div class="long-text">Escape.</div></a></div>
+                <div class="w-col w-col-4 w-col-small-4">
+                  <a href="/" aria-current="page" class="footer-logo w-inline-block w--current">
+                <img src="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134d1c911bc71ba0b893ee_nina%20bucheli%20logo%202.svg" width="160" alt="nina bucheli logo" class="image-6"/>
+                <div class="long-text">Escape.</div>
+                  </a></div>
                 <div class="footer-links w-col w-col-8 w-col-small-8">
-                    <a href="/" class="footer-link">Home</a>
-                    <a href="#/about" class="footer-link">About</a>
-                    <a href="#/contact" class="footer-link">Contact</a></div>
+                  <a href="/" class="footer-link">Home</a>
+                  <a href="#/about" class="footer-link">About</a>
+                  <a href="#/contact" class="footer-link">Contact</a>
+                </div>
             </div>
         </div>
     </div>
@@ -59,7 +67,7 @@
 <script>
   import Vue from 'vue'
   import Fragment from 'vue-fragment'
-  import Form from './classes/form'
+  // import Form from './classes/form'
 
   Vue.use(Fragment.Plugin)
 
@@ -79,10 +87,10 @@
             });
         });
 
-      new Form(
-        document.querySelector('#email-form'),
-        'https://sendgrid-func.azurewebsites.net/api/Subscribe'
-      );
+      // new Form(
+      //   document.querySelector('#email-form'),
+      //   'https://sendgrid-func.azurewebsites.net/api/Subscribe'
+      // );
 
       this.$nextTick(function () {
         // Prevent insertion of 'webflow' badge

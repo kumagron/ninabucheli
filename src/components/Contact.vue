@@ -5,16 +5,46 @@
                 <h1 class="hero-header">Let&#x27;s Connect</h1>
             </div>
         </div>
-        <div id="posts" class="main-section">
+        <div id="posts" class="section">
             <div class="w-container">
                 <div class="w-row">
+                    
                     <div class="w-col w-col-6">
-                        <h3>Connect with Us</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh
-                            et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p><a href="http://www.twitter.com/webflowapp" target="_blank" class="social-text">Follow us on Twitter</a><a href="http://www.facebook.com/webflow"
-                            target="_blank" class="social-text facebook">Like us on Facebook</a><a href="http://www.instagram.com" target="_blank" class="social-text instagram">Follow us on Instagram</a></div>
+                        <div class="div-block-2">
+                            <h2>Termin buchen</h2>
+                            <p>Ich rechne im 15 Minuten-Takt ab.</p>
+                            <p>Die Coaching sind von den Krankenkassen noch nicht anerkannt. Bitte kontaktiere mich 24 Stunden im Voraus, falls du den Termin stornieren oder verschieben möchtest. </p>
+                            <p><strong>Zeitfenster:</strong><br>DI und FR jeweils morgens 09:30-11:00</p>
+                            <p><strong>Preis:</strong><br>CHF 130 pro Stunde</p>
+
+                            <h2>Kontaktiere mich</h2>
+                            <address>
+                                <p>
+                                Nina Bucheli Sulit<br>
+                                Lebenscoach und Nähcoach<br>
+                                Eschenbachstrasse 13<br>
+                                6023 Rothenburg<br><br>
+                                Tel: <a href="tel:0793846923">079 384 69 23</a><br>
+                                Email: <a href="mailto:nina.bucheli@gmail.com">nina.bucheli@gmail.com</a>
+                                </p>
+                            </address>
+                        </div>
+                    </div>
+                </div>    
+                <!-- <div class="w-row">
                     <div class="w-col w-col-6">
-                        <h3>Send a Request</h3>
+                        <div class="div-block-2">
+                            <h3>Termin buchen</h3>
+                            <p>Ich rechne im 15 Minuten-Takt ab.</p>
+                            <p>Die Coaching sind von den Krankenkassen noch nicht anerkannt. Bitte kontaktiere mich 24 Stunden im Voraus, falls du den Termin stornieren oder verschieben möchtest. </p>
+                            <p><strong>Zeitfenster:</strong><br>DI und FR jeweils morgens 09:30-11:00</p>
+                            <p><strong>Preis:</strong><br>CHF 130 pro Stunde</p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="w-row">
+                     <div class="w-col w-col-6">
+                         <h3>Send a Request</h3>
                         <div class="w-form">
                             <form id="contact-form" name="contact-form" data-name="Contact Form" class="contact-form">
                                 <label for="name" class="field-label">Name:</label><input type="text" id="name" name="name" data-name="Name" placeholder="Enter your name" maxlength="256" class="contact-field w-input" /><label for="email" class="field-label">Email Address:</label><input
@@ -27,9 +57,9 @@
                             <div class="w-form-fail">
                                 <p>Oops! Something went wrong while submitting the form</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </div> 
+                    </div> 
+                </div> -->
             </div>
         </div>
     </span>

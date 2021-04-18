@@ -1,30 +1,19 @@
 <template>
   <span>
         <div class="inner-hero about-page">
-            <div class="w-container">
-                <h1 class="hero-header">We love writing</h1>
+            <div class="container">
+                <h1 class="hero-header">About me</h1>
             </div>
         </div>
         <div id="posts" class="main-section">
             <div class="flex-container w-container">
                 <div>
-                    <h2>Lorem Ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-                    <img src="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134e0e72c62204c5647563_signature.svg" width="126" alt="" />
-                </div>
-            </div>
-            <div class="container-7 w-container">
-                <div class="w-row">
-                    <div class="w-col w-col-4"><img src="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f13464b29f766221d0f7f62_looking-to-lake-prof.jpg" width="344" alt="" class="about-image" /></div>
-                    <div class="w-col w-col-8">
-                        <div class="w-richtext">
-                            <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content.</p>
-                            <p>A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element
-                                to that field in the settings panel. Voila!</p>
-                            <p>Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a class is added to the rich text element using the &quot;When inside of&quot; nested selector system.</p>
-                        </div>
-                    </div>
+                    <h2>Mein weg zum Coaching</h2>
+                    <!-- <p>Schon lange begleite ich Menschen auf die eine oder andere Weise. Beruflich beim Ausbilden von Lernenden Schneiderinnen in div. Lehrateliers, bei Nähkursen, beim Unterrichten an der Berufsschule und von Textilem Werken an der Oberstufe der Volksschule und privat als Mutter von zwei Kindern. Und jetzt darf ich Menschen auch durch Coaching begleiten.</p> -->
+                    <p>Schon als kleines Mädchen habe ich gelernt, mich in andere einzufühlen. Als sehr sensibles Kind hat mich das manchmal recht überfordert und so habe ich mir den einen oder anderen Schutzmantel angelegt, um weiterzugehen. Auf meinem Weg war ich irgendwann nicht mehr glücklich mit dem ständigen Trott: Arbeiten, Muttersein, Partnerin sein, allen und allem Genügen, auch den hohen Ansprüchen an mich selbst usw. Ich fühlte mich sehr unter Druck, ich war innerlich leer, hatte die Kreativität und Leichtigkeit recht verloren und es fühlte sich nur noch anstrengend an. So habe ich es gewagt und meine sichere Arbeitsstelle in der Lehrlingsausbildung gekündigt, ohne zu wissen, was kommt. Ich spürte eine Sehnsucht nach mehr Verbundenheit, nach Freiheit, nach etwas anderem, was mich mehr nährt. Ich habe angefangen, Nähkurse zu geben und erforscht, was es da sonst noch so Interessantes gäbe. Und wie das Leben so spielt, kam ich zur Lebenscoach Ausbildung. In diesen zwei Jahren habe ich mich intensiv mit mir selbst auseinandergesetzt. Dies hat mein Leben verändert.</p>
+                    <p>Ich konnte mich von vielen Dingen, die mein Leben schwer machten, befreien – habe angefangen, in allen Bereichen meines Lebens aufzuräumen und bin immer noch dran und es wird einfach immer nur noch besser, schöner und leichter. Ich habe dieses tiefe Vertrauen gefunden, mich dem Fluss des Lebens hinzugeben, auch wenn es mich manchmal richtig durchschüttelt. Ich bin unendlich dankbar dafür, dass ich diese Erfahrungen gemacht habe und weiterhin mache. Das Zwischenmenschliche, die psychische und physische Gesundheit, haben mich auf meinem Weg immer sehr interessiert. Bei der Ausbildung von Lernenden war es mir immer wichtig zu wissen, was die Jugendlichen gerade beschäftigt oder blockiert. Falls eine Arbeit nicht gelang, wollte ich wissen, was dahintersteckte und ich wollte mehr darüber wissen. Dasselbe empfinde ich im Zusammensein mit meinen Kindern. Also, wie die Gesundheit mit dem Verhalten zusammenhängt oder umgekehrt, wie sich meine Unzufriedenheit auf meine Gesundheit auswirkt usw.</p>
+                    <p>Die Lebenscoach-Ausbildung an der APG Akademie für Psychologie und Gesundheit hat mir genau das gegeben, wonach ich gesucht habe. Ein wundervolles Fundament, um Menschen feinfühlig und achtsam, voller Liebe und Freude zu begleiten. Gerade habe ich die Thetahealing-Grund-Ausbildung abgeschlossen und wieder viele Erkenntnisse über mich und viele Zusammenhänge erlangt. Glaubenssätze, die mir nicht mehr dienen, habe ich aufgelöst und mit dienlicheren ersetzt usw. Es macht mir einfach Spass, so zu arbeiten und ich freue mich so darauf, immer mehr Menschen auf ihrem Weg zu mehr Leichtigkeit und Gesundheit, zur inneren Kraft zu begleiten.</p>
+                    <p>Auch die Ausbildung in gewaltfreier Kommunikation habe ich angefangen. Ich freue mich, dass diese liebevolle Haltung immer mehr in alle Bereiche meines Lebens fliessen darf. Auf gewaltfreie Art zu kommunizieren, hat schon manches kleine oder grössere Wunder bewirkt in meinem Leben. Zum Beispiel hat sich bei Jugendlichen ein anbahnender Konflikt plötzlich in Luft aufgelöst. Es fasziniert mich immer wieder, was alles möglich ist und ich freue mich einfach auf dem Weg zu sein.</p>
                 </div>
             </div>
         </div>
