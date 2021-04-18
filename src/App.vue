@@ -43,22 +43,20 @@
         </div>
     </div>
     -->
-    <div class="footer-section">
+    <footer class="footer-section">
         <div class="w-container">
             <div class="w-row">
-                <div class="w-col w-col-4 w-col-small-4">
-                  <a href="/" aria-current="page" class="footer-logo w-inline-block w--current">
-                <img src="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134d1c911bc71ba0b893ee_nina%20bucheli%20logo%202.svg" width="160" alt="nina bucheli logo" class="image-6"/>
-                <div class="long-text">Escape.</div>
-                  </a></div>
-                <div class="footer-links w-col w-col-8 w-col-small-8">
-                  <a href="/" class="footer-link">Home</a>
-                  <a href="#/about" class="footer-link">About</a>
-                  <a href="#/contact" class="footer-link">Contact</a>
-                </div>
+              <div class="w-col w-col-4 w-col-small-4">
+                <a href="/" aria-current="page" class="footer-logo w-inline-block w--current">
+                  <img src="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134d1c911bc71ba0b893ee_nina%20bucheli%20logo%202.svg" width="120" alt="nina bucheli logo" class="image-6"/>
+                </a>
+              </div>
+              <div class="footer-links w-col w-col-8 w-col-small-8">
+                <small class="footer-link">Copyright &copy; <span id="copyright-year" /> NINABUCHELI</small>
+              </div>
             </div>
         </div>
-    </div>
+    </footer>
   </div>
 
   </fragment>
@@ -85,7 +83,11 @@
 
                 e.srcElement.className += className;
             });
+
+
         });
+
+      document.getElementById("copyright-year").innerText = (new Date()).getFullYear();
 
       // new Form(
       //   document.querySelector('#email-form'),

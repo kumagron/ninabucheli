@@ -67,14 +67,14 @@
 
 
 <script>
-import Form from '../classes/form'
+// import Form from '../classes/form'
 
 export default {
     mounted() {
-        new Form(
-            document.querySelector('#contact-form'),
-            'https://sendgrid-func.azurewebsites.net/api/ContactRequest'
-        );
+        // new Form(
+        //     document.querySelector('#contact-form'),
+        //     'https://sendgrid-func.azurewebsites.net/api/ContactRequest'
+        // );
         
         window.scrollTo(0, 0);
     }
