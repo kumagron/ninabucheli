@@ -10,8 +10,8 @@
         </a>
         <nav role="navigation" class="nav-menu w-nav-menu">
             <a href="/" class="nav-link w-nav-link">Home</a>
-            <a href="/#coaching" class="nav-link w-nav-link">Coaching</a>
-            <a href="/#about" class="nav-link w-nav-link">About</a>
+            <a href="#/coaching" class="nav-link w-nav-link">Coaching</a>
+            <a href="#/about" class="nav-link w-nav-link">About</a>
             <a href="#/contact" class="nav-link w-nav-link">Contact</a>
             <a href="#" class="close-x w-hidden-main w-hidden-medium w-hidden-small">×</a>
         </nav>
@@ -79,15 +79,14 @@
             {
                 var className = ' w--current';
                 var current = document.getElementsByClassName('nav-link w-nav-link' + className)[0];
-                console.log(current);
                 current.className = current.className.replace(className, '');
-
-                e.className += className;
+                
+                e.target.className += className;
             });
 
 
         });
-
+      
       document.getElementById("copyright-year").innerText = (new Date()).getFullYear();
 
       // new Form(
@@ -95,16 +94,15 @@
       //   'https://sendgrid-func.azurewebsites.net/api/Subscribe'
       // );
 
-      /*
+      
       this.$nextTick(function () {
         // Prevent insertion of 'webflow' badge
         document.addEventListener("DOMNodeInserted", function (e) {
-          if(e.className == 'w-webflow-badge') {
-            e.parentElement.removeChild(e);
+          if(e.target.className == 'w-webflow-badge') {
+            e.target.parentElement.removeChild(e.target);
           }
         });
       });
-      */
     }
   }
 </script>
