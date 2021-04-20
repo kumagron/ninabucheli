@@ -12,7 +12,25 @@
                 <div data-ix="hero-text-2" class="hero-subheading" style="color:#ffff">gesund, frei und glücklich sein.</div>
             </div>
         </div> -->
+
         <div class="section">
+            <div class="flex-container w-container" style="text-align:center">
+                <div>
+                    <h2>Bist du gestresst?</h2>
+                    <p>Fühlst du dich oft gestresst, blockiert, angespannt und hast das Gefühl, du müsstest leisten, leisten, leisten, aber eigentlich möchtest du geniessen?</p>
+                </div>
+                <div>
+                    <h2>Hast du Ängste?</h2>
+                    <p>Hast du manchmal Ängste, die dich plagen oder sogar Panikattacken und möchtest dich gerne wieder angstfrei bewegen können?</p>
+                </div>
+                <div>
+                    <h2>Beziehungsprobleme?</h2>
+                    <p>Möchtest du in deinem Leben Beziehungen führen, die dir Energie geben anstatt rauben und die dir guttun? (Familie, Partnerschaft, Freunde, Arbeitsplatz)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-section">
             <div class="w-container">
                 <p class="paragraph">
                     Was hindert dich noch daran, ein gesundes, erfüllendes Leben zu führen? Dies zu erforschen, 
@@ -21,20 +39,32 @@
             </div>
             
         </div>
-        <div class="main-section">
+        
+        <div class="section">
             <div class="flex-container w-container">
-                <div class="feature-image-mask"><img src="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited.jpg" sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 272.25px, 412.34375px" srcset="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-2000.jpeg 2000w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-2600.jpeg 2600w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited.jpg 3000w" alt="" class="feature-image"></div>
+                <div class="feature-image-mask"><img src="/assets/img/profile.jpg" sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 272.25px, 412.34375px" srcset="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-2000.jpeg 2000w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-2600.jpeg 2600w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited.jpg 3000w" alt="" class="feature-image"></div>
                 <div>
-                    <h2 class="heading-4">Coaching - der Weg zu deinem Herzen</h2>
-                    <p>Schon lange begleite ich Menschen auf die eine oder andere Weise.</p>
-                    <p>Beruflich beim Ausbilden von Lernenden Schneiderinnen in div.
-                    Lehrateliers, bei Nähkursen, beim Unterrichten an der Berufsschule und von Textilem Werken an der Oberstufe der Volksschule und privat als Mutter von zwei Kindern.</p>
-                    <p>Und jetzt darf ich Menschen auch durch Coaching begleiten.</p>
+                    <h2 class="heading-4">Hallo, ich bin Nina.</h2>
+                    <p>Es erfüllt mich mit grosser Demut und gleichzeitig spüre ich aus tiefstem Herzen eine riesige Freude, Menschen dabei zu begleiten, wieder leichter, gesunder und frei durchs Leben zu gehen. Denn ich glaube, dass wir hier sind, um das Leben voll und ganz zu geniessen und nicht, um zu leiden.</p>
+                    <p>Ich freue mich sehr darauf dich kennenzulernen.</p>
                     <img src="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/5f134e0e72c62204c5647563_signature.svg" width="126" alt="">
                 </div>
             </div>
         </div>
-        <div id="posts" class="section" >
+        
+        <div class="main-section">
+            <div class="w-container">
+                <h2 class="heading-4">Was du erwarten kannst</h2>
+                <p>Ein geschützter Raum, wo ich dich liebevoll und achtsam begleite.</p> 
+                <p>Gemeinsam erforschen wir die Ursachen davon, was dich im Moment daran hindert, ein freies, gesundes, erfüllendes Leben zu führen. Mit Hilfe diverser therapeutischer Werkzeuge aus der Psychologie, dem Mentalcoaching, der Naturheilkunde, Kinesiologie und des Theta Healing unterstütze ich dich dabei, den Dingen auf den Grund zu gehen. Es wird sich immer nur jenes zeigen, womit du gerade auch umgehen kannst und du bereit bist, es anzuschauen. Manchmal geht das sehr schnell und manchmal braucht es länger. Schicht für Schicht fängt es sich an zu lösen. Wir finden gemeinsam Möglichkeiten, wie du wieder zu deiner Lebensenergie findest, so dass sie wieder fliesst und du dir selbst helfen kannst.</p>
+                <p>
+                    <a href="#/contact" class="button-2 w-button">Kontaktiere mich</a>
+                </p>
+            </div>
+        </div>
+
+        
+        <!-- <div class="section" >
             <div class="w-container">
                 <div class="w-dyn-list">
                     <div role="list" class="w-dyn-items w-row">
@@ -70,7 +100,7 @@
                     </div>
                 </div>
             </div>
-        </div>      
+        </div>       -->
     </span>
 </template>
 

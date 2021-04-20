@@ -10,8 +10,8 @@
         </a>
         <nav role="navigation" class="nav-menu w-nav-menu">
             <a href="/" class="nav-link w-nav-link">Home</a>
-            <!-- <a href="#/coaching" class="nav-link w-nav-link">Coaching</a> -->
-            <a href="#/about" class="nav-link w-nav-link">About</a>
+            <a href="/#coaching" class="nav-link w-nav-link">Coaching</a>
+            <a href="/#about" class="nav-link w-nav-link">About</a>
             <a href="#/contact" class="nav-link w-nav-link">Contact</a>
             <a href="#" class="close-x w-hidden-main w-hidden-medium w-hidden-small">×</a>
         </nav>
@@ -52,7 +52,7 @@
                 </a>
               </div>
               <div class="footer-links w-col w-col-8 w-col-small-8">
-                <small class="footer-link">Copyright &copy; <span id="copyright-year" /> NINABUCHELI</small>
+                <small class="footer-link">Copyright &copy; <span id="copyright-year">2021</span> NINABUCHELI</small>
               </div>
             </div>
         </div>
@@ -63,6 +63,7 @@
 </template>
 
 <script>
+
   import Vue from 'vue'
   import Fragment from 'vue-fragment'
   // import Form from './classes/form'
@@ -78,10 +79,10 @@
             {
                 var className = ' w--current';
                 var current = document.getElementsByClassName('nav-link w-nav-link' + className)[0];
-                
+                console.log(current);
                 current.className = current.className.replace(className, '');
 
-                e.srcElement.className += className;
+                e.className += className;
             });
 
 
@@ -94,14 +95,16 @@
       //   'https://sendgrid-func.azurewebsites.net/api/Subscribe'
       // );
 
+      /*
       this.$nextTick(function () {
         // Prevent insertion of 'webflow' badge
         document.addEventListener("DOMNodeInserted", function (e) {
-          if(e.srcElement.className == 'w-webflow-badge') {
-            e.srcElement.parentElement.removeChild(e.srcElement);
+          if(e.className == 'w-webflow-badge') {
+            e.parentElement.removeChild(e);
           }
         });
       });
+      */
     }
   }
 </script>
