@@ -5,7 +5,7 @@
                 <h1 class="hero-header">Coaching</h1>
             </div>
         </div>
-        <div id="posts" class="main-section">
+        <div class="section">
             <div class="w-container">
                 <h3>Philosophie</h3>
                 <p>Unsere wahre Natur ist Liebe und wir dürfen uns wieder damit verbinden.</p>

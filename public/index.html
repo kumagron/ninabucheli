@@ -8,7 +8,9 @@
     <title>Nina Bucheli</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Webflow" name="generator" />
-    <link href="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/css/ninabucheli.webflow.84f606d65.css" rel="stylesheet" type="text/css">
+
+    <link href="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/css/ninabucheli.webflow.65af1ac0e.css" rel="stylesheet" type="text/css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:regular,italic,700%7COxygen:300,regular,700" media="all">
     <script type="text/javascript">
@@ -27,19 +29,40 @@
         }(window, document);
     </script>
    <style>
+        body {
+            color: rgb(31, 28, 28);
+        }
+
+        img.feature-image {
+            filter: grayscale();
+            border: solid;
+            
+        }
+
         div.hero-content{
             padding-bottom: 290px;
-            color: #fff
+            color: #efefef;
         }
 
-        div.section, div.main-section {
-            padding-top: 80px;
-            padding-bottom: 40px;
+        div.main-section {
+            background-color: rgb(148 143 140);
+            color: #efefef;
         }
 
-        h3 { font-size: x-large;}
+        div.main-section h3 {
+            color: #efefef;
+        }
 
-        h2 { font-family: initial !important; }
+        div.quotation {
+            background-color: darkslategrey;
+            color: #efefef;
+        }
+
+        h3 { 
+            font-size: x-large; 
+            font-family: inherit;
+            color: #5f9ea0;
+        }
 
         ul {
             list-style: none;
@@ -56,17 +79,28 @@
             line-height: 27px;
         }
 
-        p.paragraph { 
+        p.header {
+            font-size: xx-large
+        }
+
+        p.paragraph {
+            text-align: inherit;
+        }
+
+        p.callout { 
+            font-style: normal;
             font-size: x-large;
             line-height: 42px;
         }
-
 
         div.question p {
             padding-left: 25px;
             padding-right: 25px;
         }
         
+        address {
+            font-style: normal;
+        }
 
         @media only screen and (max-width: 600px) {
             body {
@@ -74,7 +108,7 @@
             }
 
             div.hero-content{
-                padding-bottom: 270px;
+                padding-bottom: 100px;
             }
 
             div.question p {
@@ -84,6 +118,14 @@
 
             ul > li:before {
                 content: "";
+            }
+
+            img.feature-image {
+                margin-bottom: 20px;
+            }
+
+            p.header {
+                font-size: 20px;
             }
         }
    </style>

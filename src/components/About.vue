@@ -5,7 +5,7 @@
                 <h1 class="hero-header">About me</h1>
             </div>
         </div>
-        <div class="main-section">
+        <div class="section">
             <div class="w-container">
                 <h3>Ausbildungen / Zertifikate</h3>
                 <ul class="credentials">
@@ -15,9 +15,9 @@
                     <li>Jan. 2021 ThetaHealing® Basic DNA Seminar</li>
                     <li>Mai 2021 Trainingsseminar GFK gewaltfreie Kommunikation, Empathie-Werkstatt Zürich</li>
                     <li>Dez. 2020 Grundlagen Seminar GFK gewaltfreie Kommunikation, Empathie-Werkstatt Zürich</li>
-                    <li>2020 Ausbildung zum Dipl. Lebenscoach A-PG</li>
-                    <li>Mai 2019 Kinesiologie Kurs bei Ruth Hess, A-PG</li>
-                    
+                    <li>Jun. 2020 Ausbildung zum Dipl. Lebenscoach A-PG</li>
+                    <li>Mai 2019 Kinesiologie Kurs bei Ruth Hess A-PG</li>
+                    <li>Okt. 2018 Kinesiologie Kurs Cornelia Zurkirchen</li>
                 </ul>
             </div>
             <div class="w-container">
