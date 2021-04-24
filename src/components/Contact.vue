@@ -41,7 +41,7 @@
                                 Eschenbachstrasse 13<br>
                                 6023 Rothenburg<br><br>
                                 Tel: <a href="tel:0793846923">079 384 69 23</a><br>
-                                Email: <a href="mailto:nina.bucheli@gmail.com">nina.bucheli@gmail.com</a>
+                                Email: <a href="mailto:nina@ninabucheli.ch">nina@ninabucheli.ch</a>
                                 </p>
                             </address>
                         </div>

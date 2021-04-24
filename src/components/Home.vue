@@ -68,6 +68,7 @@
             </div>
         </div>
 
+
         <div class="main-section">
             <div class="flex-container w-container">
                 <div class="feature-image-mask"><img src="/assets/img/profile.jpg" sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 272.25px, 412.34375px" srcset="https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-2000.jpeg 2000w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited-p-2600.jpeg 2600w, https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/607c032c8d79bb1b8ff54d3a_IMG_5726_edited.jpg 3000w" alt="" class="feature-image"></div>
@@ -85,44 +86,6 @@
                 </div>
             </div>
         </div>
-        
-        <!-- <div class="section" >
-            <div class="w-container">
-                <div class="w-dyn-list">
-                    <div role="list" class="w-dyn-items w-row">
-                        <div role="listitem" class="w-dyn-item w-col w-col-6">
-                            <a href="/#" class="category-block w-inline-block">
-                                <div data-ix="category-thumbnail" style="background-image:url(&quot;https://uploads-ssl.webflow.com/5f13464b29f76655680f7f05/5f13464b29f7667f510f7fec_photo-1433890070408-084b6b305d72.jpg&quot;)" class="category-thumbnail">
-                                    <div class="category-name">Philosophie</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div role="listitem" class="w-dyn-item w-col w-col-6">
-                            <a href="/#" class="category-block w-inline-block">
-                                <div data-ix="category-thumbnail" style="background-image:url(&quot;https://uploads-ssl.webflow.com/5f13464b29f76655680f7f05/5f13464b29f7662c4a0f7ff2_photo-1416949929422-a1d9c8fe84af.jpg&quot;)" class="category-thumbnail">
-                                    <div class="category-name">Was du erwarten kannst</div>
-                                </div>
-                            </a>
-                        </div>
-                        
-                        <div role="listitem" class="w-dyn-item w-col w-col-6">
-                            <a href="/#" class="category-block w-inline-block">
-                                <div data-ix="category-thumbnail" style="background-image:url(&quot;https://uploads-ssl.webflow.com/5f13464b29f76655680f7f05/5f13464b29f766faaf0f7fde_photo-1440558899941-2b58b4b0e6ad.jpg&quot;)" class="category-thumbnail">
-                                    <div class="category-name">Bereiche</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div role="listitem" class="w-dyn-item w-col w-col-6">
-                            <a href="/#" class="category-block w-inline-block">
-                                <div data-ix="category-thumbnail" style="background-image:url(&quot;https://uploads-ssl.webflow.com/5f13464b29f76655680f7f05/5f13464b29f7666d0d0f7fe3_photo-1436285122087-89584a1d9398.jpg&quot;)" class="category-thumbnail">
-                                    <div class="category-name">Werkzeuge</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>       -->
     </span>
 </template>
 
