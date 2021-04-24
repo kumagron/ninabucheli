@@ -90,12 +90,22 @@
 </template>
 
 <script>
-    // import form from '@/classes/form'
+    var init = false;
 
     export default {
         mounted() {
+            
+            if(!init) {
+                init = true;
+            }
+
+            document.getElementsByClassName('hero-content')[0].childNodes.forEach(e => {
+                if(init) {
+                    e.style.opacity = 1;
+                }
+            });
+
             window.scrollTo(0, 0);
-            // new form().OverrideFormSubmit();
     }
   }
 </script>
