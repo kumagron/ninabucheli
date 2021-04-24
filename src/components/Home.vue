@@ -6,7 +6,7 @@
                 <div data-ix="hero-text-2" class="hero-subheading">gesund, frei und glücklich sein</div>
             </div>
         </div>
-        <div class="section quotation" style="text-align:center">
+        <div class="section centered quotation">
             <div class="w-container">
                 <p class="paragraph" style="font-style:normal">
                     <q style="font-size: xx-large">Der Sinn des menschlichen Daseins<br> ist das Glück.</q>
@@ -21,8 +21,8 @@
                 </p>
             </div>
         </div>
-        <div class="section">
-            <div class="flex-container w-container" style="font-size:medium;text-align:center">
+        <div class="section centered">
+            <div class="flex-container w-container" style="font-size:medium">
                 <div class="question">
                     <h3>Bist du gestresst?</h3>
                     <p>Fühlst du dich oft gestresst, blockiert, angespannt und hast das Gefühl, du müsstest leisten, leisten, leisten, aber eigentlich möchtest du geniessen?</p>
@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="section exhibit">
+        <div class="section centered exhibit">
             <div class="w-container">
                 <p class="callout" style="color:#efefef">
                     Was hindert dich noch daran, ein gesundes, erfüllendes Leben zu führen?<br>
@@ -56,7 +56,7 @@
             </div>
         </div> -->
         
-        <div class="section">
+        <div class="section centered">
             <div class="w-container">
                 <h3>Mein Angebot an dich</h3>
                 <p>Ein geschützter Raum, wo ich dich liebevoll und achtsam begleite.</p> 
