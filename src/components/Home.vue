@@ -58,7 +58,7 @@
         
         <div class="section">
             <div class="w-container">
-                <h3>Was du erwarten kannst</h3>
+                <h3>Mein Angebot an dich</h3>
                 <p>Ein geschützter Raum, wo ich dich liebevoll und achtsam begleite.</p> 
                 <p>Gemeinsam erforschen wir die Ursachen davon, was dich im Moment daran hindert, ein freies, gesundes, erfüllendes Leben zu führen. Mit Hilfe diverser therapeutischer Werkzeuge aus der Psychologie, dem Mentalcoaching, der Naturheilkunde, Kinesiologie und des Theta Healing unterstütze ich dich dabei, den Dingen auf den Grund zu gehen. Es wird sich immer nur jenes zeigen, womit du gerade auch umgehen kannst und du bereit bist, es anzuschauen. Manchmal geht das sehr schnell und manchmal braucht es länger. Schicht für Schicht fängt es sich an zu lösen.</p>
                 <p>Wir finden gemeinsam Möglichkeiten, wie du wieder zu deiner Lebensenergie findest, so dass sie wieder fliesst und du dir selbst helfen kannst.</p>
