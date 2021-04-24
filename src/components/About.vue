@@ -7,7 +7,7 @@
         </div>
         <div class="section">
             <div class="w-container">
-                <h3>Ausbildungen / Zertifikate</h3>
+                <h3>Ausbildungen</h3>
                 <ul class="credentials">
                     <li>Mai 2021 Trainingsseminar GFK gewaltfreie Kommunikation, Empathie-Werkstatt Zürich</li>
                     <li>März 2021 ThetaHealing® Seminar Grabe tiefer</li>

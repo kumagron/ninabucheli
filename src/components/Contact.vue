@@ -16,7 +16,7 @@
                             <p><strong>Preis:</strong><br>CHF 130 pro Stunde</p>
                             <p>
                                 <strong>Zahlungsmöglichkeiten:</strong><br>
-                                Per TWINT oder bar.
+                                Per TWINT oder bar
                             </p>
                             <p>
                                 <strong>Zur Info:</strong><br>
