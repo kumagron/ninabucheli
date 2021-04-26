@@ -13,7 +13,6 @@
                     <li>März 2021 ThetaHealing® Seminar Grabe tiefer</li>
                     <li>Jan. 2021 ThetaHealing® DNA Seminar</li>
                     <li>Jan. 2021 ThetaHealing® Basic DNA Seminar</li>
-                    <li>Mai 2021 Trainingsseminar GFK gewaltfreie Kommunikation, Empathie-Werkstatt Zürich</li>
                     <li>Dez. 2020 Grundlagen Seminar GFK gewaltfreie Kommunikation, Empathie-Werkstatt Zürich</li>
                     <li>Jun. 2020 Ausbildung zum Dipl. Lebenscoach A-PG</li>
                     <li>Mai 2019 Kinesiologie Kurs bei Ruth Hess A-PG</li>
