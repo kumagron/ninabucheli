@@ -9,6 +9,11 @@
             <div class="w-container">
                 <h3>Ausbildungen</h3>
                 <ul class="credentials">
+                    <li>Mai 2022 Zertifikat Momento Kindertrainer, Achtsame Schulen Schweiz</li>
+                    <li>März 2022 Thetahealing® Pflanzen Seminar</li>
+                    <li>März 2022 Thetahealing® Tier Seminar</li>
+                    <li>März 2022 Thetahealing® Soul Mate Seminar</li>
+                    <li>Sept. 2021 Kineseologie Auffrischungskurs bei Ruth Hess A-PG</li>
                     <li>Mai 2021 Trainingsseminar GFK gewaltfreie Kommunikation, Empathie-Werkstatt Zürich</li>
                     <li>März 2021 ThetaHealing® Seminar Grabe tiefer</li>
                     <li>Jan. 2021 ThetaHealing® DNA Seminar</li>
