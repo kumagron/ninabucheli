@@ -1,18 +1,31 @@
-import Vue from 'vue'
-import router from './classes/router'
+// import './assets/main.css'
 
-Vue.config.productionTip = false
-
+import { createApp } from 'vue'
 import App from './App.vue'
+import router from './router'
 
-new Vue({
-  router,
-  render:h => h(App),
+const app = createApp(App)
+app.mixin({
   mounted() {
-      this.$nextTick(function () {
-          let webflowScript = document.createElement('script')
-          webflowScript.setAttribute('src', 'https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/js/webflow.4f36a7b4f.js')
-          document.head.appendChild(webflowScript)
-      });
-  }
-}).$mount('#app')
+    // document.addEventListener('DOMNodeInserted', function (e) {
+    //   console.log('foo')
+    //   if (e.target.className == 'w-webflow-badge') {
+    //     e.target.parentElement.removeChild(e.target)
+    //   }
+    // })
+
+    this.$nextTick(() => {
+      // Add custom behavior in mounted
+      let webflowScript = document.createElement('script')
+      webflowScript.setAttribute(
+        'src',
+        'https://uploads-ssl.webflow.com/5f13464bce6db715dc783b31/js/webflow.4f36a7b4f.js',
+      )
+      document.head.appendChild(webflowScript)
+    })
+  },
+})
+
+app.use(router)
+
+app.mount('#app')

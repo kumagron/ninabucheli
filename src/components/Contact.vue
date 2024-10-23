@@ -14,15 +14,17 @@
                             
                             <p>
                                 <strong>Zeitfenster und Ort:</strong>
-                                <br>DI, MI und FR jeweils morgens 09:00-11:15 Uhr
+                                <br>Freitag morgen 9:00-11:00 Uhr
+                                <br>Schönfeldstr. 1, 6275 Ballwil
+                                <br>im Theta Healing Praxisraum von Ursula Lehmann.
+                                <br>Parkplätze sind vorhanden vor dem Haus, ÖV Bahnhof Ballwil in 5min. Gehdistanz.
                                 <br>
-                                <br>Online per ZOOM oder einfach per Telefon,
-                                <br>vor Ort in Neuenkirch ab Januar 2023
+                                <br>Termine sind vor Ort oder als Fernbehandlung per Telefon möglich.
                             </p>
 
                             <p>
                                 <strong>Preis:</strong>
-                                <br>CHF 130 pro Stunde
+                                <br>CHF 140 pro Stunde
                             </p>
                             <p>
                                 <strong>Zahlungsmöglichkeiten:</strong>
@@ -36,7 +38,7 @@
                             
                             <p>
                                 <br>Bitte kontaktiere mich 24 Stunden im Voraus, falls du den Termin stornieren oder verschieben möchtest.
-                                <br>Für Nichtkontaktieren, erlaube ich mir 130 CHF in Rechnung zu stellen.
+                                <br>Für Nichtkontaktieren, erlaube ich mir 140 CHF in Rechnung zu stellen.
                             </p>
                         </div>
                     </div>
@@ -47,9 +49,9 @@
                             <h3>Kontaktiere mich</h3>
                             <address>
                                 <p>
-                                Nina Bucheli Sulit<br>
+                                Nina Bucheli<br>
                                 Lebenscoach und Nähcoach<br>
-                                Eschenbachstrasse 13<br>
+                                Eichenring 3<br>
                                 6023 Rothenburg<br><br>
                                 Tel: <a href="tel:0793846923">079 384 69 23</a><br>
                                 Email: <a href="mailto:nina@ninabucheli.ch">nina@ninabucheli.ch</a>
